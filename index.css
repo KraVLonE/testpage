@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.Side {
+    background-color: hotpink;
+    font-family: "open sans", sans-serif;
+    font-size: 2vw;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+
+}
+
+.Main {
+    background-color: darkcyan;
+    font-family: "open sans", sans-serif;
+    font-size: 2vw;
+    width: 60%;
+    padding: 10px;
+    float: left;
+    text-align: center
+}
+
+.End {
+    background-color: coral;
+    font-family: "open sans", sans-serif;
+    font-size: 2vw;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    flex: auto;
+
+
+}
+
+.button {
+    padding: 10px;
+    color: chocolate;
+}
+
+#title{
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .End, .Main, .Side {
+        width: 100%;
+    }
+    
+}
+
